@@ -22,6 +22,11 @@ def price_lowtohigh(request):
     context = {"cakes":cakes}
     return render(request, "menu/list.html", context)
 
+def rating_hightolow(request):
+    cakes = Cupcake.objects.all().order_by('-rating')
+    context = {"cakes":cakes}
+    return render(request, "menu/list.html", context)
+
 
 def cupcake_detail(request, pk):
     cake = get_object_or_404(Cupcake, pk=pk)
