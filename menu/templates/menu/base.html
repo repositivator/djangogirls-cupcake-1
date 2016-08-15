@@ -30,7 +30,12 @@
         <ul class="nav navbar-nav navbar-right">
 
           {% if user.is_authenticated %}
+          <li><p class="navbar-text">Welcome <a href="{% url 'accounts:profile' %}">{{ user.username }}</a></p></li>
           <li><a href="{% url 'menu:cupcake_new' %}"><span class="glyphicon glyphicon-plus"></span></a></li>
+          <a href="{% url 'accounts:logout' %}" class="btn btn-danger navbar-btn">Logout</a>
+          {% else %}
+          <a href="{% url 'accounts:register' %}" class="btn btn-primary navbar-btn">Register</a>
+          <a href="{% url 'accounts:login' %}" class="btn btn-default navbar-btn">Sign in</a>
           {% endif %}
 
           <li class="dropdown">
@@ -59,5 +64,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
 
+  <script>
+  $(function () {
+  $('[data-toggle="popover"]').popover()
+  })
+  </script>
 </body>
 </html>
