@@ -1,0 +1,49 @@
+{% extends 'menu/base.html' %}
+{% load staticfiles %}
+{% load menu_extras %}
+
+{% block content %}
+
+  <div class="container" >
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron title text-center" style="background-image: url({% static 'menu/images/cupcake_cover.jpg' %});">
+      <h1 class="title">Cupcakes and High Fives!</h1>
+      <p>Django Girls Seoul welcomes you!</p>
+      <p>Lets build an awesome Django site together</p>
+      <p>
+        <a class="btn btn-lg btn-primary" href="https://github.com/DjangoGirlsSeoul/djangocupcakeshop" role="button">Source Code &raquo;</a>
+      </p>
+    </div>
+
+  </div> <!-- /container -->
+
+  <div class="container">
+    {% if cakes %}
+    <h2 class="text-center">Choose your favorite Cupcake!</h2>
+    <div class="row">
+      {% for cake in cakes %}
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="card">
+        <div class="card-img-top">
+          <div class="image" style="background-image: url({{cake.image.url}});"></div>
+        </div>
+        <div class="card-block">
+          <h4 class="card-title text-center">{{cake.name}}</h4>
+            <p class="card-text text-center">
+             {% for i in cake.rating|get_range %}
+             <span class="glyphicon glyphicon-star" area-hidden="true"></span>
+             {% endfor %}
+            </p>
+          <a href="{% url 'menu:cupcake_detail' pk=cake.pk %}" class="btn btn-default btn-lg btn-block">View</a>
+          <!-- url(r'', include('menu.urls', namespace='menu')) -->
+        </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <h2 class="text-center">No Cupcakes added yet - :(</h2>
+    {% endif %}
+  </div>
+{% endblock %}
