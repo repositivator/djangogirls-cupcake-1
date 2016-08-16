@@ -1,12 +1,15 @@
 # Make DjangoCupcakeshop Website 장고컵케이크가게 웹사이트 만들기
 
 We use [Travis CI](https://travis-ci.org) to verify the build
+
 [![Build Status](https://travis-ci.org/repositivator/djangogirls-cupcake-1.svg?branch=master)](https://travis-ci.org/repositivator/djangogirls-cupcake-1)
 
 And [Coveralls](https://coveralls.io) to monitor test coverage
+
 [![Coverage Status](https://coveralls.io/repos/github/repositivator/djangogirls-cupcake-1/badge.svg?branch=master)](https://coveralls.io/github/repositivator/djangogirls-cupcake-1?branch=master)
 
 And [Landscape](https://landscape.io) to check the quality of your code (style)
+
 [![Code Health](https://landscape.io/github/repositivator/djangogirls-cupcake-1/master/landscape.svg?style=flat)](https://landscape.io/github/repositivator/djangogirls-cupcake-1/master)
 
 
