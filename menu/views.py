@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from . import models
 from .models import Cupcake
-from .forms import CupcakeForm
+from .forms import CupcakeForm, CommentForm
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
 
@@ -30,8 +30,20 @@ def rating_hightolow(request):
 
 def cupcake_detail(request, pk):
     cake = get_object_or_404(Cupcake, pk=pk)
-    context = {"cake":cake}
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.post = cake
+            comment.writer = request.user
+            comment.approved_comment = True
+            comment.save()
+            return redirect('menu:cupcake_detail', pk=cake.pk)
+    else:
+        form = CommentForm()
+    context = {'cake':cake, 'form':form}
     return render(request, 'menu/detail.html', context)
+
 
 @login_required
 def cupcake_new(request):
