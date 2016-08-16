@@ -2,19 +2,19 @@
 [![Build Status](https://travis-ci.org/DjangoGirlsSeoul/djangocupcakeshop.svg?branch=master)](https://travis-ci.org/DjangoGirlsSeoul/djangocupcakeshop)
 [![Coverage Status](https://coveralls.io/repos/github/DjangoGirlsSeoul/djangocupcakeshop/badge.svg?branch=master)](https://coveralls.io/github/DjangoGirlsSeoul/djangocupcakeshop?branch=master)
 
-.. image:: https://img.shields.io/coveralls/coagulant/coveralls-python.svg
+image:: https://img.shields.io/coveralls/coagulant/coveralls-python.svg
     :target: https://coveralls.io/r/coagulant/coveralls-python
 
-.. image:: https://img.shields.io/travis/coagulant/coveralls-python/master.svg
+image:: https://img.shields.io/travis/coagulant/coveralls-python/master.svg
     :target: https://travis-ci.org/coagulant/coveralls-python
 
-.. image:: https://img.shields.io/pypi/v/coveralls.svg
+image:: https://img.shields.io/pypi/v/coveralls.svg
     :target: https://pypi.python.org/pypi/coveralls
 
-.. image:: https://img.shields.io/pypi/pyversions/coveralls.svg
+image:: https://img.shields.io/pypi/pyversions/coveralls.svg
     :target: https://pypi.python.org/pypi/coveralls/
 
-.. image:: https://img.shields.io/pypi/dd/coveralls.svg
+image:: https://img.shields.io/pypi/dd/coveralls.svg
     :target: https://pypi.python.org/pypi/coveralls/
 
 <img src="https://djangogirlsseoul.gitbooks.io/-djangocupcakeshop/content/cupcake.png" height="460">
