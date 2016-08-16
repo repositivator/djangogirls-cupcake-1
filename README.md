@@ -6,6 +6,9 @@ We use [Travis CI](https://travis-ci.org) to verify the build
 And [Coveralls](https://coveralls.io) to monitor test coverage
 [![Coverage Status](https://coveralls.io/repos/github/repositivator/djangogirls-cupcake-1/badge.svg?branch=master)](https://coveralls.io/github/repositivator/djangogirls-cupcake-1?branch=master)
 
+And [Landscape](https://landscape.io) to check the quality of your code (style)
+[![Code Health](https://landscape.io/github/repositivator/djangogirls-cupcake-1/master/landscape.svg?style=flat)](https://landscape.io/github/repositivator/djangogirls-cupcake-1/master)
+
 
 
 <img src="https://djangogirlsseoul.gitbooks.io/-djangocupcakeshop/content/cupcake.png" height="460">
