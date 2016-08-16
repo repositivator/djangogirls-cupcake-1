@@ -1,21 +1,7 @@
 # Make DjangoCupcakeshop Website 장고컵케이크가게 웹사이트 만들기
-[![Build Status](https://travis-ci.org/DjangoGirlsSeoul/djangocupcakeshop.svg?branch=master)](https://travis-ci.org/DjangoGirlsSeoul/djangocupcakeshop)
-[![Coverage Status](https://coveralls.io/repos/github/DjangoGirlsSeoul/djangocupcakeshop/badge.svg?branch=master)](https://coveralls.io/github/DjangoGirlsSeoul/djangocupcakeshop?branch=master)
+[![Build Status](https://travis-ci.org/repositivator/djangogirls-cupcake-1.svg?branch=master)](https://travis-ci.org/repositivator/djangogirls-cupcake-1)
+[![Coverage Status](https://coveralls.io/repos/github/repositivator/djangogirls-cupcake-1/badge.svg?branch=master)](https://coveralls.io/github/repositivator/djangogirls-cupcake-1?branch=master)
 
-image:: https://img.shields.io/coveralls/coagulant/coveralls-python.svg
-    :target: https://coveralls.io/r/coagulant/coveralls-python
-
-image:: https://img.shields.io/travis/coagulant/coveralls-python/master.svg
-    :target: https://travis-ci.org/coagulant/coveralls-python
-
-image:: https://img.shields.io/pypi/v/coveralls.svg
-    :target: https://pypi.python.org/pypi/coveralls
-
-image:: https://img.shields.io/pypi/pyversions/coveralls.svg
-    :target: https://pypi.python.org/pypi/coveralls/
-
-image:: https://img.shields.io/pypi/dd/coveralls.svg
-    :target: https://pypi.python.org/pypi/coveralls/
 
 <img src="https://djangogirlsseoul.gitbooks.io/-djangocupcakeshop/content/cupcake.png" height="460">
 ####### cc. [Designed by Freepik](http://www.freepik.com)
