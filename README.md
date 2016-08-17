@@ -10,6 +10,10 @@
 - [Coveralls](https://coveralls.io) to monitor test coverage.
 - [Landscape](https://landscape.io) to check the quality of the code.
 
+#### 본 튜토리얼 중 배포를 위해 활용한 서비스는 아래와 같습니다.
+- [Python Anywhere](https://www.pythonanywhere.com) (http://repositivator.pythonanywhere.com/)
+- [Microsoft Azure](https://portal.azure.com) (http://djangogirls-cupcake-1.azurewebsites.net/)
+
 #### 튜토리얼 원본 정보는 아래와 같습니다. 
 * 원본 튜토리얼 소스코드는 [여기](https://goo.gl/Y9v1Du)에서 확인하실 수 있습니다. 
 * 튜토리얼 진행을 위한 원본 문서(GitBook)는 [여기](https://goo.gl/F3zOmU)에서 확인하실 수 있습니다.
