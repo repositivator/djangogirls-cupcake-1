@@ -5,13 +5,15 @@
 # Make DjangoCupcakeshop Website 
 ## [DjangoCupcake Shop 튜토리얼](https://www.pycon.kr/2016apac/program/tutorial/3)[(파이콘 APAC2016)](https://www.pycon.kr/2016apac/)에 따라 만든 웹사이트입니다.
 
-- Used [Travis CI](https://travis-ci.org) to verify the build
-- And [Coveralls](https://coveralls.io) to monitor test coverage
-- And [Landscape](https://landscape.io) to check the quality of the code.
+#### 자동 테스트 및 테스트 커버리지 확인을 위해 아래 도구를 활용하였습니다. 
+- [Travis CI](https://travis-ci.org) to verify the build.
+- [Coveralls](https://coveralls.io) to monitor test coverage.
+- [Landscape](https://landscape.io) to check the quality of the code.
 
-* 튜토리얼 진행을 위한 원본 문서는 [여기](https://goo.gl/F3zOmU)에서 확인하실 수 있으며,
-* 튜토리얼 소스코드 원본은 [여기](https://goo.gl/Y9v1Du)에서 확인하실 수 있습니다. 
-* 아래 내용은 튜토리얼 소스코드 원본 중 [README.md](https://goo.gl/lmBqwK) 의 내용입니다.
+#### 튜토리얼 원본 정보는 아래와 같습니다. 
+* 원본 튜토리얼 소스코드는 [여기](https://goo.gl/Y9v1Du)에서 확인하실 수 있습니다. 
+* 튜토리얼 진행을 위한 원본 문서(GitBook)는 [여기](https://goo.gl/F3zOmU)에서 확인하실 수 있습니다.
+* 아래 내용은 튜토리얼 소스코드 원본 중 [README.md](https://goo.gl/lmBqwK)의 내용입니다.
 
 
 
