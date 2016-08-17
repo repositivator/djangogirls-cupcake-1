@@ -32,8 +32,7 @@ else:
 if DEBUG:
     ALLOWED_HOSTS = ['*']
 else:
-    ALLOWED_HOSTS = ['repositivator.pythonanywhere.com',
-    'djangogirls-cupcake-1.azurewebsites.net']
+    ALLOWED_HOSTS = ['repositivator.pythonanywhere.com', 'djangogirls-cupcake-1.azurewebsites.net']
 
 
 # Application definition
