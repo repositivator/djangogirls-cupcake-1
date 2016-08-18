@@ -1,5 +1,4 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from . import models
 from .models import Cupcake
 from .forms import CupcakeForm, CommentForm
 from django.utils import timezone

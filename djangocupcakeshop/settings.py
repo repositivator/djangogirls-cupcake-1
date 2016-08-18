@@ -24,7 +24,7 @@ DEBUG = os.getenv('DJANGO_DEBUG') != 'FALSE'
 
 # SECURITY WARNING: keep the secret key used in production secret!
 if DEBUG:
-    SECRET_KEY = 'Hello@World!'
+    SECRET_KEY = 1
 else:
     SECRET_KEY = os.getenv('SECRET_KEY')
 
