@@ -21,6 +21,7 @@ if sys.version_info[0] == 3:
     def to_str(value):
         return value.decode(sys.getfilesystemencoding())
 
+    # changed the name of the function from execfile to executefile for not redefining the built-in fucntion(execfile)
     def executefile(path, global_dict):
         """Execute a file"""
         with open(path, 'r') as f:
@@ -49,7 +50,7 @@ if ptvsd_secret:
         try:
             ptvsd.enable_attach(ptvsd_secret)
             log('ptvsd enabled.\n')
-        except Exception as e:
+        except Exception as e: # Specified the exception type for the quality of the code
             log('ptvsd.enable_attach failed\n')
     except ImportError:
         log('error importing ptvsd.\n');
