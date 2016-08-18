@@ -21,7 +21,7 @@ if sys.version_info[0] == 3:
     def to_str(value):
         return value.decode(sys.getfilesystemencoding())
 
-    def execfile(path, global_dict):
+    def executefile(path, global_dict):
         """Execute a file"""
         with open(path, 'r') as f:
             code = f.read()
@@ -49,7 +49,7 @@ if ptvsd_secret:
         try:
             ptvsd.enable_attach(ptvsd_secret)
             log('ptvsd enabled.\n')
-        except:
+        except Exception as e:
             log('ptvsd.enable_attach failed\n')
     except ImportError:
         log('error importing ptvsd.\n');
@@ -96,7 +96,7 @@ if not activate_this:
 
 def get_virtualenv_handler():
     log('Activating virtualenv with %s\n' % activate_this)
-    execfile(activate_this, dict(__file__=activate_this))
+    executefile(activate_this, dict(__file__=activate_this))
 
     log('Getting handler %s\n' % os.getenv('WSGI_ALT_VIRTUALENV_HANDLER'))
     handler = get_wsgi_handler(os.getenv('WSGI_ALT_VIRTUALENV_HANDLER'))
