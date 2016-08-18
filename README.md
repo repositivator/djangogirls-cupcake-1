@@ -1,16 +1,23 @@
-# Make DjangoCupcakeshop Website 장고컵케이크가게 웹사이트 만들기
-
-We use [Travis CI](https://travis-ci.org) to verify the build
-
 [![Build Status](https://travis-ci.org/repositivator/djangogirls-cupcake-1.svg?branch=master)](https://travis-ci.org/repositivator/djangogirls-cupcake-1)
-
-And [Coveralls](https://coveralls.io) to monitor test coverage
-
 [![Coverage Status](https://coveralls.io/repos/github/repositivator/djangogirls-cupcake-1/badge.svg?branch=master)](https://coveralls.io/github/repositivator/djangogirls-cupcake-1?branch=master)
-
-And [Landscape](https://landscape.io) to check the quality of your code (style)
-
 [![Code Health](https://landscape.io/github/repositivator/djangogirls-cupcake-1/master/landscape.svg?style=flat)](https://landscape.io/github/repositivator/djangogirls-cupcake-1/master)
+
+# Make DjangoCupcakeshop Website 
+## [DjangoCupcake Shop 튜토리얼](https://www.pycon.kr/2016apac/program/tutorial/3)[(파이콘 APAC2016)](https://www.pycon.kr/2016apac/)에 따라 만든 웹사이트입니다.
+
+#### 자동 테스트 및 테스트 커버리지 확인을 위해 아래 도구를 활용하였습니다. 
+- [Travis CI](https://travis-ci.org) to verify the build.
+- [Coveralls](https://coveralls.io) to monitor test coverage.
+- [Landscape](https://landscape.io) to check the quality of the code.
+
+#### 본 튜토리얼 중 배포를 위해 활용한 서비스는 아래와 같습니다.
+- [Python Anywhere](https://www.pythonanywhere.com) (http://repositivator.pythonanywhere.com/)
+- [Microsoft Azure](https://portal.azure.com) (http://djangogirls-cupcake-1.azurewebsites.net/)
+
+#### 튜토리얼 원본 정보는 아래와 같습니다. 
+* 원본 튜토리얼 소스코드는 [여기](https://goo.gl/Y9v1Du)에서 확인하실 수 있습니다. 
+* 튜토리얼 진행을 위한 원본 문서(GitBook)는 [여기](https://goo.gl/F3zOmU)에서 확인하실 수 있습니다.
+* 아래 내용은 튜토리얼 소스코드 원본 중 [README.md](https://goo.gl/lmBqwK)의 내용입니다.
 
 
 
