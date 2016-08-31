@@ -5,6 +5,8 @@
 # Make DjangoCupcakeshop Website 
 ## [DjangoCupcake Shop 튜토리얼](https://www.pycon.kr/2016apac/program/tutorial/3)[(파이콘 APAC2016)](https://www.pycon.kr/2016apac/)에 따라 만든 웹사이트입니다.
 
+> [여기](https://github.com/repositivator/djangogirls-cupcake-1/archive/master.zip)를 눌러 전체 소스코드를 다운로드하실 수 있습니다.
+
 #### 자동 테스트 및 테스트 커버리지 확인을 위해 아래 도구를 활용하였습니다. 
 - [Travis CI](https://travis-ci.org) to verify the build.
 - [Coveralls](https://coveralls.io) to monitor test coverage.
